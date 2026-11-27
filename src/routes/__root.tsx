@@ -81,14 +81,21 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
-      { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { title: "Hotel Bajrangi — Pandukeshwar, Uttarakhand" },
+      {
+        name: "description",
+        content:
+          "Hotel Bajrangi in Pandukeshwar, Uttarakhand — a comfortable, budget-friendly, smoke-free hotel on the Badrinath Road. A convenient base for Badrinath, Hemkund Sahib, and the Valley of Flowers.",
+      },
+      { name: "author", content: "Hotel Bajrangi" },
+      { property: "og:title", content: "Hotel Bajrangi — Pandukeshwar, Uttarakhand" },
+      {
+        property: "og:description",
+        content:
+          "A peaceful, comfortable stay in the heart of the Himalayas. A convenient stop for pilgrims and travellers exploring Badrinath, Hemkund Sahib, and the Valley of Flowers.",
+      },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
-      { name: "twitter:site", content: "@Lovable" },
     ],
     links: [
       {
