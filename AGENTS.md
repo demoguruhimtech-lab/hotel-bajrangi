@@ -28,3 +28,6 @@ use the editor.
   own key and store it in Secrets.
 - **Secrets.** Lovable manages them. Do not put secret values in the repo.
 <!-- LOVABLE:END -->
+
+## Hotel Bajrangi
+- Keep the hotel experience as one section-anchored page at `/`; the owner explicitly requested a single-page website.
